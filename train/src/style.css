@@ -1,0 +1,67 @@
+.red-circle{
+background: linear-gradient(to bottom left, #000000, #a9a9a9);
+  margin-left: 50px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: absolute;
+  /*top is half of blue height*/
+  top: 100px;
+  /*left is half of blue width*/
+  left: 300px;
+}
+.blue-box{
+  background: linear-gradient(to bottom right, #000000, #4d0000);
+  height: 200px;
+  width: 600px;
+  border-radius:120px;
+  position: relative;
+  top: 200px;
+  left: 200px;
+}
+.acircle{
+  background: linear-gradient(to bottom right, #000000, #a9a9a9);
+  margin-right: 50px;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  border-radius: 50%;
+  top: 100px; 
+  right: 300px;
+   
+}
+.square{
+   background: linear-gradient(to bottom right, #000000, #4d0000);
+  height: 200px;
+  width: 300px;
+  position: absolute;
+  top: 170px;
+  left: 512px;
+ border-radius: 20px 20px 20px 20px;
+}
+.window{
+   background: linear-gradient(to bottom right, #ffffcc, #ffff99);
+  height: 150px;
+  width: 200px;
+  position: absolute;
+  top: 200px;
+  left: 522px;
+  margin-left: 80px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.line{
+  background-color: black;
+  height: 20px;
+  width: 350px; 
+  position: absolute;
+  top: 500px;
+  left: 350px;
+  border-radius: 10px;
+}
+
+
+
+
+
+
