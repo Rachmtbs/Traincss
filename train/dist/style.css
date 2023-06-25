@@ -1,3 +1,46 @@
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes moveLine {
+  0% {
+    left: 350px;
+    top: 500px;
+  }
+  25% {
+    left: 375px;
+    top: 475px;
+  }
+  50% {
+    left: 400px;
+    top: 500px;
+  }
+  75% {
+    left: 375px;
+    top: 525px;
+  }
+  100% {
+    left: 350px;
+    top: 500px;
+  }
+}
+
+  
+
+#redCircle, .acircle {
+  /* Existing styles for red-circle and acircle elements */
+  animation: rotate 2s linear infinite;
+}
+
+#line {
+  /* Existing styles for line element */
+  animation: moveLine 2s linear infinite;
+}
 .red-circle{
 background: linear-gradient(to bottom left, #000000, #a9a9a9);
   margin-left: 50px;
@@ -58,4 +101,9 @@ background: linear-gradient(to bottom left, #000000, #a9a9a9);
   top: 500px;
   left: 350px;
   border-radius: 10px;
+}
+
+
+body {
+  background: linear-gradient(to bottom right, black, #545454);
 }
